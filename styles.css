@@ -3,7 +3,6 @@ body{
     background: linear-gradient(135deg,WHITE, #B7EDEF, #A9D09E);
     margin: auto;
     margin-top: 5px;
-    min-width: 600px;
     max-width: 1400px;
 }
 
