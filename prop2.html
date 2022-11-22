@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Expletus+Sans&family=Pacifico&family=Zen+Antique&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/801249598a.js" crossorigin="anonymous"></script>
+    <style>
+        /* Responsive layout - makes a two column-layout instead of four columns */
+        @media screen and (max-width: 800px) {
+        .column {
+            -ms-flex: 40%;
+            flex: 40%;
+            max-width: 40%;
+        }
+        .dropdown-content-pic {
+            width: 200%;
+        }
+        .dropdown-pic:hover .drop3,.drop4,.drop7,.drop8 {
+            right:0%;
+        }
+        .dropdown-pic:hover .drop5,.drop6 {
+            left:0%;
+        }
+        }
+
+        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+        .column {
+            -ms-flex: 100%;
+            flex: 100%;
+            max-width: 100%;
+        }
+        .dropdown-pic:hover .dropdown-content-pic {
+            display: none;
+            }
+        }
+    </style>
+    <title>Villa Solimar</title>
+</head>
+<body style="background: linear-gradient(180deg, rgba(1, 217, 255, 0.212), rgba(255, 255, 255, 0.938), rgba(1, 217, 255, 0.493));">
+    <div class="banner">
+        <img class="banner_pic" src="images/banner.png" alt="banner_pic">
+        <h3>
+            CEN HOUSE <br>
+            Our Houses, Your Home</h3>
+    </div>
+    <br>
+    <div class="navi sticky">
+        <ul>
+            <li><a href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li class="dropdown">
+                <a class="dropbtn active"  href="sale.html"><i class="fa-solid fa-bars"></i> Available Properties</a>
+                <div class="dropdown-content">
+                    <a href="prop1.html">Blue Lagoon Island</a>
+                    <a class="active" href="prop2.html">Villa Solimar</a>
+                    <a href="prop3.html">The Pelican House</a>
+                  </div>
+            </li>
+            <li><a  href="contact.html"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+            <li><a href="site-map.html"><i class="fa-regular fa-map"></i> Site Map</a></li>
+        </ul>
+    </div>
+
+    <!-- information is taken from https://www.islandrealestate.com/view/blue-lagoon-island/ -->
+    
+    <br>
+    <div class="house1-des">
+        <br>
+        <div class="prop1-intro">
+            <h2 style="text-align: center; margin:5px;">Villa Solimar</h2>
+    
+            <div class="dropdown-pic1">
+                <img src="images/house2.jpg" alt="" style="width:100%;">
+                <div class="dropdown-content-pic1">
+                    <img src="images/house2.jpg"style="width:100%">
+                </div>
+            </div>
+            <p>VILLA SOLIMAR is a two-storey Mediterranean-style villa offering the ultimate in privacy and luxury.</p>
+            <br>
+            <p>With A double-height sky-lit foyer and wrought iron staircase, this villa gives a grand entrance where you will find a grandeur house accented with columns, door, and window trims, rendered in the coral finish, high ceiling, and white picked beams.</p>
+            <br>
+            <p>With glassed French doors, the sunlight radiates in the room, providing an amazing view of the pool and the Caribbean sea. The kitchen has classic cabinetry with quartz countertops. bar/breakfast area with a large pantry.</p>
+            <br>
+            <p>Each home features two bedrooms, two bathrooms, a great room, and fully-equipped kitchens. All doors and windows are storm impact, including French doors and sliding glass doors, and both homes have been outfitted with all-new roofs, wiring, electrical fixtures, and appliances</p>
+            <br>
+            <p>The family room & office/library has custom-built entertainment and in-wall cabinets, while the upper floor has 4 ensuite bedrooms. The master has a sitting area & TV armoire and his & hers walk-in closets, double sinks, and a delightful Jacuzzi tub.</p>
+            <br>
+            <p>Villa Solimar is equipped and furnished to the extremely highest standards and extremely pleasing to the eye inside as is outside.</p>
+            <br>
+            <p>This property was designed with comfort, style & elegance in mind.</p>
+            <br>
+        </div>
+        <br>
+        <br>
+        <div class="galery">
+            <h3 style="margin: 5px;">Galery</h3>
+            <div class="row"> 
+                <div class="column">
+                    <div class="dropdown-pic">
+                        <img  src="images/prop2/img1.jpg" style="width:100%">
+                        <div class="dropdown-content-pic drop1">
+                            <img  src="images/prop2/img1.jpg" style="width:100%">
+                            <div class="desc">Villa Solimar Pic-1</div>
+                        </div>
+                    </div>
+                    <div class="dropdown-pic">
+                        <img src="images/prop2/img2.jpg"style="width:100%">
+                        <div class="dropdown-content-pic drop2">
+                            <img src="images/prop2/img2.jpg"style="width:100%">
+                            <div class="desc">Villa Solimar Pic-2</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="dropdown-pic">
+                        <img  src="images/prop2/img3.jpg" style="width:100%">
+                        <div class="dropdown-content-pic drop3">
+                            <img  src="images/prop2/img3.jpg" style="width:100%">
+                            <div class="desc">Villa Solimar Pic-3</div>
+                        </div>
+                    </div>
+                    <div class="dropdown-pic">
+                        <img src="images/prop2/img4.jpg"style="width:100%">
+                        <div class="dropdown-content-pic drop4">
+                            <img src="images/prop2/img4.jpg"style="width:100%">
+                            <div class="desc">Villa Solimar Pic-4</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="dropdown-pic">
+                        <img  src="images/prop2/img5.jpg" style="width:100%">
+                        <div class="dropdown-content-pic drop5">
+                            <img  src="images/prop2/img5.jpg" style="width:100%">
+                            <div class="desc">Villa Solimar Pic-5</div>
+                        </div>
+                    </div>
+                    <div class="dropdown-pic">
+                        <img src="images/prop2/img6.jpg"style="width:100%">
+                        <div class="dropdown-content-pic drop6">
+                            <img src="images/prop2/img6.jpg"style="width:100%">
+                            <div class="desc">Villa Solimar Pic-6</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="dropdown-pic">
+                        <img  src="images/prop2/img7.jpg" style="width:100%">
+                        <div class="dropdown-content-pic drop7">
+                            <img  src="images/prop2/img7.jpg" style="width:100%">
+                            <div class="desc">Villa Solimar Pic-7</div>
+                        </div>
+                    </div>
+                    <div class="dropdown-pic">
+                        <img src="images/prop2/img8.jpg"style="width:100%">
+                        <div class="dropdown-content-pic drop8">
+                            <img src="images/prop2/img8.jpg"style="width:100%">
+                            <div class="desc">Villa Solimar Pic-8</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        <br>
+        <div class="feature">
+            <h3>Features and Details</h3>
+            <table>
+                <tr>
+                    <th>Property ID</th>
+                    <td>CENH-002</td>
+                </tr>
+                <tr>
+                    <th>Region</th>
+                    <td>Calgary</td>
+                </tr>
+                <tr>
+                    <th>Property Type</th>
+                    <td>Villa </td>
+                </tr>
+                <tr>
+                    <th>Bedroom</th>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <th>Bathroom</th>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <th>Living Area</th>
+                    <td>4672sq</td>
+                </tr>
+                <tr>
+                    <th>Lot Size</th>
+                    <td>3.5 Acres </td>
+                </tr>
+                <tr>
+                    <th>Location</th>
+                    <td>Beach Nearby, Ocean view </td>
+                </tr>
+                <tr>
+                    <th>Agent</th>
+                    <td>Hung Nguyen</td>
+                </tr>
+                <tr>
+                    <th>Price</th>
+                    <td>1,499,999$ CAD</td>
+                </tr>
+
+
+
+            </table>
+        </div>
+    </div>
+    
+<br>
+
+<footer class="footer-prop1"><small>Copyright &copy; Hung Nguyen Design <br> Centennial College - COMP 213 - 011</small></footer>
+</body>
+</html>

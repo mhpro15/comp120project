@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Expletus+Sans&family=Pacifico&family=Zen+Antique&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/801249598a.js" crossorigin="anonymous"></script>
+    <style>
+        /* Responsive layout - makes a two column-layout instead of four columns */
+        @media screen and (max-width: 800px) {
+        .column {
+            -ms-flex: 40%;
+            flex: 40%;
+            max-width: 40%;
+        }
+        .dropdown-content-pic {
+            width: 200%;
+        }
+        .dropdown-pic:hover .drop3,.drop4,.drop7,.drop8 {
+            right:0%;
+        }
+        .dropdown-pic:hover .drop5,.drop6 {
+            left:0%;
+        }
+        }
+
+        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+        .column {
+            -ms-flex: 100%;
+            flex: 100%;
+            max-width: 100%;
+        }
+        .dropdown-pic:hover .dropdown-content-pic {
+            display: none;
+            }
+        }
+    </style>
+    <title>The Pelican House</title>
+</head>
+<body style="background: linear-gradient(180deg, rgba(207, 219, 138, 0.6),rgba(117, 236, 143, 0.5), rgba(1, 217, 255, 0.493), rgba(255, 255, 255, 0.938));">
+    <div class="banner">
+        <img class="banner_pic" src="images/banner.png" alt="banner_pic">
+        <h3>
+            CEN HOUSE <br>
+            Our Houses, Your Home</h3>
+    </div>
+    <br>
+    <div class="navi sticky">
+        <ul>
+            <li><a href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li class="dropdown">
+                <a class="dropbtn active"  href="sale.html"><i class="fa-solid fa-bars"></i> Available Properties</a>
+                <div class="dropdown-content">
+                    <a href="prop1.html">Blue Lagoon Island</a>
+                    <a href="prop2.html">Villa Solimar</a>
+                    <a class="active" href="prop3.html">The Pelican House</a>
+                  </div>
+            </li>
+            <li><a  href="contact.html"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+            <li><a href="site-map.html"><i class="fa-regular fa-map"></i> Site Map</a></li>
+        </ul>
+    </div>
+
+    <!-- information is taken from https://www.islandrealestate.com/view/blue-lagoon-island/ -->
+    
+    <br>
+    <div class="house1-des">
+        <br>
+        <div class="prop1-intro">
+            <h2 style="text-align: center; margin:5px;">The Pelican House</h2>
+    
+            <div class="dropdown-pic1">
+                <img src="images/house3.jpg" alt="" style="width:100%;">
+                <div class="dropdown-content-pic1">
+                    <img src="images/house3.jpg"style="width:100%">
+                </div>
+            </div>
+            <p>The Pelican is an easy to manage vacation cottage above Marigot Beach Club, overlooking one of the most beautiful bays in the Caribbean.</p>
+            <br>
+            <p>The cottage is very much based on balcony living with outstanding views all day and incredible sunsets every evening .</p>
+            <br>
+            <p>This cottage includes three bedrooms off the large balcony's area and two bathrooms . The kitchen and lounge are also off the balcony, but with the incredible views most of the time owners dine and relax on the balcony area.</p>
+            <br>
+            <p>Access to The Pelican is via Marigot Beach Club , and although set on the hillside there is use of a funicular type outdoor lift to access the cottage .</p>
+            <br>
+            <p>The Pelican cottage is presently rented as a vacation rental home in the owners absence and therefore gives an income as well as being a relaxing place to vacation.</p>
+            <br>
+        </div>
+        <br>
+        <br>
+        <div class="galery">
+            <h3 style="margin: 5px;">Galery</h3>
+            <div class="row"> 
+                <div class="column">
+                    <div class="dropdown-pic">
+                        <img  src="images/prop3/img1.jpg" style="width:100%">
+                        <div class="dropdown-content-pic drop1">
+                            <img  src="images/prop3/img1.jpg" style="width:100%">
+                            <div class="desc">The Pelican House Pic-1</div>
+                        </div>
+                    </div>
+                    <div class="dropdown-pic">
+                        <img src="images/prop3/img2.jpg"style="width:100%">
+                        <div class="dropdown-content-pic drop2">
+                            <img src="images/prop3/img2.jpg"style="width:100%">
+                            <div class="desc">The Pelican House Pic-2</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="dropdown-pic">
+                        <img  src="images/prop3/img3.jpg" style="width:100%">
+                        <div class="dropdown-content-pic drop3">
+                            <img  src="images/prop3/img3.jpg" style="width:100%">
+                            <div class="desc">The Pelican House Pic-3</div>
+                        </div>
+                    </div>
+                    <div class="dropdown-pic">
+                        <img src="images/prop3/img4.jpg"style="width:100%">
+                        <div class="dropdown-content-pic drop4">
+                            <img src="images/prop3/img4.jpg"style="width:100%">
+                            <div class="desc">The Pelican House Pic-4</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="dropdown-pic">
+                        <img  src="images/prop3/img5.jpg" style="width:100%">
+                        <div class="dropdown-content-pic drop5">
+                            <img  src="images/prop3/img5.jpg" style="width:100%">
+                            <div class="desc">The Pelican House Pic-5</div>
+                        </div>
+                    </div>
+                    <div class="dropdown-pic">
+                        <img src="images/prop3/img6.jpg"style="width:100%">
+                        <div class="dropdown-content-pic drop6">
+                            <img src="images/prop3/img6.jpg"style="width:100%">
+                            <div class="desc">The Pelican House Pic-6</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="dropdown-pic">
+                        <img  src="images/prop3/img7.jpg" style="width:100%">
+                        <div class="dropdown-content-pic drop7">
+                            <img  src="images/prop3/img7.jpg" style="width:100%">
+                            <div class="desc">The Pelican House Pic-7</div>
+                        </div>
+                    </div>
+                    <div class="dropdown-pic">
+                        <img src="images/prop3/img8.jpg"style="width:100%">
+                        <div class="dropdown-content-pic drop8">
+                            <img src="images/prop3/img8.jpg"style="width:100%">
+                            <div class="desc">The Pelican House Pic-8</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        <br>
+        <div class="feature">
+            <h3>Features and Details</h3>
+            <table>
+                <tr>
+                    <th>Property ID</th>
+                    <td>CENH-003</td>
+                </tr>
+                <tr>
+                    <th>Region</th>
+                    <td>Ontario</td>
+                </tr>
+                <tr>
+                    <th>Property Type</th>
+                    <td>Villa </td>
+                </tr>
+                <tr>
+                    <th>Bedroom</th>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <th>Bathroom</th>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <th>Living Area</th>
+                    <td>6404sq</td>
+                </tr>
+                <tr>
+                    <th>Lot Size</th>
+                    <td>6404sq</td>
+                </tr>
+                <tr>
+                    <th>Location</th>
+                    <td>Beach Nearby, Mountain View </td>
+                </tr>
+                <tr>
+                    <th>Agent</th>
+                    <td>Hung Nguyen</td>
+                </tr>
+                <tr>
+                    <th>Price</th>
+                    <td>700,000$ CAD</td>
+                </tr>
+
+
+
+            </table>
+        </div>
+    </div>
+    
+<br>
+
+<footer class="footer-prop1"><small>Copyright &copy; Hung Nguyen Design <br> Centennial College - COMP 213 - 011</small></footer>
+</body>
+</html>

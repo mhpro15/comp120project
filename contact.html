@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Expletus+Sans&family=Pacifico&family=Zen+Antique&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/801249598a.js" crossorigin="anonymous"></script>
+    
+    <title>Contact</title>
+</head>
+<body style="background: linear-gradient(135deg,  rgb(255, 255, 255,0.5), rgb(88, 174, 224, .5), rgb(255, 255, 255,0.5));">
+    <div class="banner">
+        <img class="banner_pic" src="images/banner.png" alt="banner_pic">
+        <h3>
+            CEN HOUSE <br>
+            Our Houses, Your Home</h3>
+    </div>
+    <br>
+    <div class="navi sticky">
+        <ul>
+            <li><a href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li class="dropdown">
+                <a class="dropbtn"  href="sale.html"><i class="fa-solid fa-bars"></i> Available Properties</a>
+                <div class="dropdown-content">
+                    <a href="prop1.html">Blue Lagoon Island</a>
+                    <a href="prop2.html">Villa Solimar</a>
+                    <a href="prop3.html">The Pelican House</a>
+                  </div>
+            </li>
+            <li><a class="active" href="contact.html"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+            <li><a href="site-map.html"><i class="fa-regular fa-map"></i> Site Map</a></li>
+        </ul>
+    </div>
+
+    <div id="contact">
+        <h2 style="text-align: center;">Contact Us</h2>
+    <div class="contact-form">
+        <h3>We'd like to hear from you.</h3>
+        <p>If you have any questions or inquiry about the property please contact us:</p>
+        <br>
+
+        <form action="mailto:cenhouseinquiry@gmail.com">
+            
+            <div class="flex-container">
+                <div style="max-width: 30px; margin-right: 30px;">
+                    <br>
+                    <select name="gender" id="gender">
+                        <option value=""></option>
+                        <option value="">Mr.</option>
+                        <option value="">Mrs.</option>
+                    </select>
+                </div> 
+                <div>
+                    <label for="fname">First Name <span class="require">*</span></label><br>
+                    <input type="text" id="fname" name="fname" required>
+                </div>
+                <div>
+                    <label for="lanme">Last Name <span class="require">*</span></label><br>
+                    <input type="text" id="lname" name="lname" required>
+                </div>
+            </div>
+
+            <div class="flex-container2">
+                <div>
+                    <label for="house-type">Type of House <span class="require">*</span></label><br>
+                    <select name="house-type" id="house-type" required>
+                        <option value="" disabled>Choose a type </option>
+                        <option value="">House</option>
+                        <option value="">Condominium</option>
+                    </select>
+                    <br>
+                </div>
+                <div style="margin-left:20px">
+                    <label for="price">Price range</label><br>
+                    <input type="range" id="price" name="price" min="100" max="5000" step="10" oninput="this.nextElementSibling.value = this.value"><output></output>k$
+                    <br>
+                </div>
+            </div>
+
+            <div class="flex-container2">
+                <div>
+                    <label for="broom-num">Number of Bedroom</label><br>
+                    <input type="number" id="broom-num" name="broom-num" min="1" max="10" value="0">
+                    <br>
+                </div>
+                <div style="margin-left:20px">
+                    <label for="wroom-num">Number of Washroom</label><br>
+                    <input type="number" id="wroom-num" name="wroom-num" min="1" max="10" value="0">
+                    <br>
+                </div>
+            <br>
+            </div>
+            
+
+            <label for="message">Other requirement</label> <br>
+            <textarea id="message" name="message" rows="8" cols="70"> </textarea><br>
+           
+            <label for="phone">Phone number <span class="require">*</span></label><br>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="XXX-XXX-XXXX"><br>
+                
+            <label for="email">Email <span class="require">*</span></label> <br>
+            <input type="email" id="email" name="email" required> 
+                
+            <button class="submit-btn" type="submit">Submit</button>
+        </form>
+        </div>
+        <br><br>
+        <fieldset class="contact-field">
+            <legend>Cen House</legend>
+            <p><i class="fa-solid fa-location-dot"></i> Address: 941 Progress Ave, Scarborough, ON M1G 3T8</p><br>
+            <p><i class="fa-solid fa-phone"></i> Phone: 416-289-5000 &nbsp; 1-800-268-4419</p>
+
+        </fieldset>
+    </div>
+    
+    
+
+<br>
+</div>
+<footer class="footer-prop1"><small>Copyright &copy; Hung Nguyen Design <br> Centennial College - COMP 213 - 011</small></footer>
+</body>
+</html>

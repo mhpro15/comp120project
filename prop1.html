@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Expletus+Sans&family=Pacifico&family=Zen+Antique&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/801249598a.js" crossorigin="anonymous"></script>
+    <style>
+        /* Responsive layout - makes a two column-layout instead of four columns */
+        @media screen and (max-width: 800px) {
+        .column {
+            -ms-flex: 40%;
+            flex: 40%;
+            max-width: 40%;
+        }
+        .dropdown-content-pic {
+            width: 200%;
+        }
+        .dropdown-pic:hover .drop3,.drop4,.drop7,.drop8 {
+            right:0%;
+        }
+        .dropdown-pic:hover .drop5,.drop6 {
+            left:0%;
+        }
+        }
+
+        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+        .column {
+            -ms-flex: 100%;
+            flex: 100%;
+            max-width: 100%;
+        }
+        .dropdown-pic:hover .dropdown-content-pic {
+            display: none;
+            }
+        }
+    </style>
+    <title>Blue Lagoon Island</title>
+</head>
+<body style="background: linear-gradient(180deg, rgba(255, 255, 255, 0.534), rgba(1, 217, 255, 0.534),  rgba(100, 236, 130, 0.5), rgba(221, 235, 142, 0.6));">
+    <div class="banner">
+        <img class="banner_pic" src="images/banner.png" alt="banner_pic">
+        <h3>
+            CEN HOUSE <br>
+            Our Houses, Your Home</h3>
+    </div>
+    <br>
+    <div class="navi sticky">
+        <ul>
+            <li><a href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li class="dropdown">
+                <a class="dropbtn active"  href="sale.html"><i class="fa-solid fa-bars"></i> Available Properties</a>
+                <div class="dropdown-content">
+                    <a class="active" href="prop1.html">Blue Lagoon Island</a>
+                    <a href="prop2.html">Villa Solimar</a>
+                    <a href="prop3.html">The Pelican House</a>
+                  </div>
+            </li>
+            <li><a  href="contact.html"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+            <li><a href="site-map.html"><i class="fa-regular fa-map"></i> Site Map</a></li>
+        </ul>
+    </div>
+
+    <!-- information is taken from https://www.islandrealestate.com/view/blue-lagoon-island/ -->
+    
+    <br>
+    <div class="house1-des">
+        <br>
+        <div class="prop1-intro">
+            <h2 style="text-align: center; margin:5px;">Blue Lagoon Island</h2>
+    
+            <div class="dropdown-pic1">
+                <img src="images/house1.jpg" alt="" style="width:100%;">
+                <div class="dropdown-content-pic1">
+                    <img src="images/house1.jpg"style="width:100%">
+                </div>
+            </div>
+            <p>Blue Lagoon Island is a stunning 7-acre private island situated in a protected Lagoon in warm and welcoming Abaco in The Bahamas.</p>
+            <br>
+            <p>The perfect marriage of ultimate privacy and easy accessibility, this tranquil oasis overlooks a crystal-clear blue water lagoon brimming with vibrant sea life from baby turtles to a vast array of tropical fish making Blue Lagoon Island the ideal family escape for making new memories while sharing outdoor experiences such as snorkeling, paddle boarding, and spearfishing.</p>
+            <br>
+            <p>Nestled on either end of this lush, tropical cay are two well-built homes appropriately named The East End House, offering 1,774 sq. ft. of indoor space and 3,160 sq. ft. including the covered decks, and The West End House which offers 1,360 sq. ft. of indoor space and 2,630 sq. ft. including the covered decks.</p>
+            <br>
+            <p>Each home features two bedrooms, two bathrooms, a great room, and fully-equipped kitchens. All doors and windows are storm impact, including French doors and sliding glass doors, and both homes have been outfitted with all-new roofs, wiring, electrical fixtures, and appliances</p>
+            <br>
+            <p>There are also two docks on the island next to the East End House and a partial dock located near the West End House.</p>
+            <br>
+            <p>Blue Lagoon Island has approximately one mile of golf cart paths connecting the two homes on each end, and there are four plus acres of virtually untouched land between the two homes, leaving ample elevated space for future development of multiple cottages for guests or staff or an expansive private estate.</p>
+            <br>
+            <p>The remaining renovation potential includes completion of the kitchen in the West End House, landscape walls, completion of a third dock, customizing the cay's native landscaping, and building an extended dock with a rock protection wall on the Sea of Abaco to accommodate larger sea vessels.</p>
+            <br>
+            <p>More development potential exists on Scotland Cay as Blue Lagoon Island is being offered along with a lot on Scotland Cay which comes with a boat slip for a 40' boat.</p>
+            <br>
+            <p>A private community just east of Blue Lagoon Island, Scotland Cay also has a 3,200-ft. paved airstrip, thus making Blue Lagoon Island accessible by private plane.</p>
+            <br>
+            <p>Blue Lagoon Island Location Highlights: • 19 miles to historic Green Turtle Cay, a charming historic settlement. • 18 miles to Southworth Development’s award-winning Winding Bay. • 12 miles from Hope Town. • 6 miles to Man-O-War Cay, a historic settlement, known for its boat-making and sail craft. • 6 miles east of the new Montage development on Matt Lowes Cay. • 7 miles to Marsh Harbour International Airport. • 4 miles west is Discovery Land's Bakers Bay</p>
+        </div>
+        <br>
+        <br>
+        <div class="galery">
+            <h3 style="margin: 5px;">Galery</h3>
+            <div class="row"> 
+                <div class="column">
+                    <div class="dropdown-pic">
+                        <img  src="images/prop1/img1.jpg" style="width:100%">
+                        <div class="dropdown-content-pic drop1">
+                            <img  src="images/prop1/img1.jpg" style="width:100%">
+                            <div class="desc">Blue Lagoon Island Pic-1</div>
+                        </div>
+                    </div>
+                    <div class="dropdown-pic">
+                        <img src="images/prop1/img2.jpg"style="width:100%">
+                        <div class="dropdown-content-pic drop2">
+                            <img src="images/prop1/img2.jpg"style="width:100%">
+                            <div class="desc">Blue Lagoon Island Pic-2</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="dropdown-pic">
+                        <img  src="images/prop1/img3.jpg" style="width:100%">
+                        <div class="dropdown-content-pic drop3">
+                            <img  src="images/prop1/img3.jpg" style="width:100%">
+                            <div class="desc">Blue Lagoon Island Pic-3</div>
+                        </div>
+                    </div>
+                    <div class="dropdown-pic">
+                        <img src="images/prop1/img4.jpg"style="width:100%">
+                        <div class="dropdown-content-pic drop4">
+                            <img src="images/prop1/img4.jpg"style="width:100%">
+                            <div class="desc">Blue Lagoon Island Pic-4</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="dropdown-pic">
+                        <img  src="images/prop1/img5.jpg" style="width:100%">
+                        <div class="dropdown-content-pic drop5">
+                            <img  src="images/prop1/img5.jpg" style="width:100%">
+                            <div class="desc">Blue Lagoon Island Pic-5</div>
+                        </div>
+                    </div>
+                    <div class="dropdown-pic">
+                        <img src="images/prop1/img6.jpg"style="width:100%">
+                        <div class="dropdown-content-pic drop6">
+                            <img src="images/prop1/img6.jpg"style="width:100%">
+                            <div class="desc">Blue Lagoon Island Pic-6</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="dropdown-pic">
+                        <img  src="images/prop1/img7.jpg" style="width:100%">
+                        <div class="dropdown-content-pic drop7">
+                            <img  src="images/prop1/img7.jpg" style="width:100%">
+                            <div class="desc">Blue Lagoon Island Pic-7</div>
+                        </div>
+                    </div>
+                    <div class="dropdown-pic">
+                        <img src="images/prop1/img8.jpg"style="width:100%">
+                        <div class="dropdown-content-pic drop8">
+                            <img src="images/prop1/img8.jpg"style="width:100%">
+                            <div class="desc">Blue Lagoon Island Pic-8</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        <br>
+        <div class="feature">
+            <h3>Features and Details</h3>
+            <table>
+                <tr>
+                    <th>Property ID</th>
+                    <td>CENH-001</td>
+                </tr>
+                <tr>
+                    <th>Region</th>
+                    <td>News Brunswick</td>
+                </tr>
+                <tr>
+                    <th>Property Type</th>
+                    <td>Ocean Island </td>
+                </tr>
+                <tr>
+                    <th>Bedroom</th>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <th>Bathroom</th>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <th>Living Area</th>
+                    <td>3314sq</td>
+                </tr>
+                <tr>
+                    <th>Lot Size</th>
+                    <td>7 Acres </td>
+                </tr>
+                <tr>
+                    <th>Location</th>
+                    <td>Beachfront, Beach Nearby, Beach view, Oceanfront, Ocean view, Private Island, Water Access, Waterfront, Water view  </td>
+                </tr>
+                <tr>
+                    <th>Agent</th>
+                    <td>Hung Nguyen</td>
+                </tr>
+                <tr>
+                    <th>Price</th>
+                    <td>4,999,999$ CAD</td>
+                </tr>
+
+
+
+            </table>
+        </div>
+    </div>
+    
+<br>
+
+<footer class="footer-prop1"><small>Copyright &copy; Hung Nguyen Design <br> Centennial College - COMP 213 - 011</small></footer>
+</body>
+</html>
