@@ -199,16 +199,22 @@ li a:hover {
         display: block;
         grid-template-columns: auto auto auto;
         background-color: inherit;
+        width: 70%;
+        margin: auto;
+      }
+      .latest-add{
+        text-align: center;
       }
       li{
         float: none;
       }
+     
       .grid-item:hover{
         margin: 20px
       }
      
       .sticky ul{
-        margin-right: 100%;
+        margin-right: 98%;
         width: 10px;
         height: 50px;
         margin-bottom: -200px; 
