@@ -211,7 +211,7 @@ li a:hover {
         margin-right: 100%;
         width: 10px;
         height: 50px;
-        margin-bottom: -40%;
+        margin-bottom: -200px; 
         border: 2px solid;
         background-color: #2a3950;
         border-top-right-radius: 8px;
